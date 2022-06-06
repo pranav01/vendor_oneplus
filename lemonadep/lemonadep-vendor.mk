@@ -74,4 +74,8 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/lemonadep/proprietary/odm/lib64/camera/com.qti.tuned.semco_imx789.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.semco_imx789.bin \
     vendor/oneplus/lemonadep/proprietary/odm/vendor/firmware/iris5.fw:$(TARGET_COPY_OUT_ODM)/vendor/firmware/iris5.fw \
     vendor/oneplus/lemonadep/proprietary/odm/vendor/firmware/iris5_ccf1.fw:$(TARGET_COPY_OUT_ODM)/vendor/firmware/iris5_ccf1.fw \
-    vendor/oneplus/lemonadep/proprietary/odm/vendor/firmware/iris5_ccf2.fw:$(TARGET_COPY_OUT_ODM)/vendor/firmware/iris5_ccf2.fw
+    vendor/oneplus/lemonadep/proprietary/odm/vendor/firmware/iris5_ccf2.fw:$(TARGET_COPY_OUT_ODM)/vendor/firmware/iris5_ccf2.fw \
+    vendor/oneplus/lemonadep/proprietary/vendor/bin/sensors.qti:$(TARGET_COPY_OUT_VENDOR)/bin/sensors.qti \
+    vendor/oneplus/lemonadep/proprietary/vendor/lib64/libsensorcal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorcal.so \
+    vendor/oneplus/lemonadep/proprietary/vendor/lib64/libssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssc.so \
+    vendor/oneplus/lemonadep/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so
